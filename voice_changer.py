@@ -1,7 +1,7 @@
-from regex import E
 import speech_recognition as sr
 from win32com.client import Dispatch
 import pyttsx3
+
 class VoiceChanger:
     def man_speech():
         r = sr.Recognizer()
